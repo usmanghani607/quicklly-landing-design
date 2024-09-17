@@ -26,7 +26,7 @@
                                                 <img src="images/category1.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                     <h5>Groceries</h5>
-                                                    <p>Premium Indian groceries</p>
+                                                    <p>Same Day Delivery</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -35,7 +35,7 @@
                                                 <img src="images/category2.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Food</h5>
-                                                    <p class="card-text">Authentic Indian food</p>
+                                                    <p class="card-text">90 Mins Delivery</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -44,7 +44,7 @@
                                                 <img src="images/category3.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Just By Quicklly</h5>
-                                                    <p class="card-text">Ready-to-eat Indian meals</p>
+                                                    <p class="card-text">Delivery in 2-3 Days</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@
                                                 <img src="images/category4.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Direct From India</h5>
-                                                    <p class="card-text">From India to your doorstep</p>
+                                                    <p class="card-text">Delivery in 4-5 Days</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,12 +62,12 @@
                                                 <img src="images/category5.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Shop Nationwide</h5>
-                                                    <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                                    <p class="card-text">Delivery in 2-3 Days</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="col">
                                             <div class="card">
                                                 <img src="images/category6.png" class="card-img-top" alt="...">
@@ -113,7 +113,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

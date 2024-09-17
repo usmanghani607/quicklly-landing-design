@@ -18,8 +18,7 @@
                 <nav class="navbar navbar-light">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <!-- <span class="navbar-toggler-icon"></span> -->
-                             <img src="images/breadcrum.png" alt="">
+                            <img src="images/breadcrum.png" alt="">
                         </button>
                         <div class="col-md-1">
                             <div class="logo-sec">
@@ -28,23 +27,25 @@
                         </div>
                         <div class="col-md-2">
                             <div class="zip-code">
-                                <h5>Shopping in</h5>
-                                <span>1400 N Lake Shore</span>
-                                <span><img src="images/down.png" alt=""></span>
+                                <span class="location"><img src="images/location.png" alt=""></span><span>Home</span>
+                                <span class="down">
+                                    <a href="#" id="showLocationModal"><img src="images/down.png" alt=""></a>
+                                </span>
+                                <h5>1400 N Lake Shore</h5>
                             </div>
                         </div>
                         <div class="col-md-5">
                             <div class="search">
                                 <form class="d-flex search-input">
                                     <input class="form-control me-2" type="search" placeholder="Search for products…" aria-label="Search">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <img src="images/search.png" alt="">
                                 </form>
                             </div>
                         </div>
                         <div class="col-md-1">
                             <div class="login">
                                 <span>Login</span>
-                                <span><img src="images/down.png" alt=""></span>
+                                <a href="#" id="showLoginModal"><span><img src="images/down.png" alt=""></span></a>
                             </div>
                         </div>
                         <div class="col-md-1">
@@ -129,12 +130,82 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Location Modal -->
+                <!-- <div id="locationModal" class="modal">
+                    <div class="clsContent">
+                        <span id="closeLocationModal" class="close">&times;</span>
+                        <p>Change your location</p>
+                        <div class="clsChangePincode">
+                            <form name="zipsearch" action="" method="post" onsubmit="return checkStoreZip();">
+                                <input type="text" name="zip" id="zipcode" onkeypress="return IsAlphaNumeric(event)" placeholder="Enter Zip Code" maxlength="10" minlength="4" pattern=".{4,10}" class="chkzipcode" required="" value="60610" autofocus="">
+                                <input type="hidden" name="submitzip" value="Submit">
+                                <input type="submit" class="clsBtn" value="">
+                            </form>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Login Modal -->
+                <!-- <div id="loginModal" class="modal">
+                    <div class="clsContent">
+                        <span id="closeLoginModal" class="close">&times;</span>
+                        <p>Login</p>
+                        <div class="clsLoginForm">
+                            <form name="login" action="" method="post" onsubmit="return checkLogin();">
+                            <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required="">
+                
+                            <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required="">
+
+                            <input type="email" name="email" id="email" placeholder="Enter Email" required="">
+
+                            <input type="text" name="username" id="username" placeholder="Enter Username" required="">
+                            
+                            <input type="password" name="password" id="password" placeholder="Enter Password" required="">
+                            
+                            <input type="submit" class="clsBtn" value="Login">
+                            </form>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>
+    
+    <!-- <script>
+        const locationModal = document.getElementById("locationModal");
+        const showLocationModalButton = document.getElementById("showLocationModal");
+        const closeLocationModalButton = document.getElementById("closeLocationModal");
 
+        const loginModal = document.getElementById("loginModal");
+        const showLoginModalButton = document.getElementById("showLoginModal");
+        const closeLoginModalButton = document.getElementById("closeLoginModal");
 
+        showLocationModalButton.onclick = function(event) {
+            event.preventDefault();
+            locationModal.style.display = "block";
+        }
 
+        closeLocationModalButton.onclick = function() {
+            locationModal.style.display = "none";
+        }
+
+        showLoginModalButton.onclick = function(event) {
+            event.preventDefault();
+            loginModal.style.display = "block";
+        }
+
+        closeLoginModalButton.onclick = function() {
+            loginModal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == locationModal) {
+                locationModal.style.display = "none";
+            }
+            if (event.target == loginModal) {
+                loginModal.style.display = "none";
+            }
+        }
+    </script> -->
 </body>
 
 </html>
