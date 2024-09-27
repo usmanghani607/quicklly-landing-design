@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
@@ -25,7 +26,7 @@
                                 <img src="images/logo2.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col">
                             <div class="zip-code">
                                 <span class="location"><img src="images/location.png" alt=""></span><span>Home</span>
                                 <span class="down">
@@ -34,10 +35,10 @@
                                 <h5>1400 N Lake Shore</h5>
                             </div>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <div class="search">
                                 <form class="d-flex search-input">
-                                    <input class="form-control me-2" type="search" placeholder="Search for products…" aria-label="Search">
+                                    <input class="form-control" type="search" placeholder="Search for products…" aria-label="Search">
                                     <img src="images/search.png" alt="">
                                 </form>
                             </div>
@@ -170,7 +171,7 @@
         </div>
     </div>
     
-    <!-- <script>
+    <script>
         const locationModal = document.getElementById("locationModal");
         const showLocationModalButton = document.getElementById("showLocationModal");
         const closeLocationModalButton = document.getElementById("closeLocationModal");
@@ -205,7 +206,7 @@
                 loginModal.style.display = "none";
             }
         }
-    </script> -->
+    </script>
 </body>
 
 </html>

@@ -8,11 +8,11 @@
 <body>
 
 <div class="home-page">
-    <div class="container">
+    <div class="container main">
         <div class="row">
             <div class="col-md-12">
                 <div class="category-section">
-                    <div class="container">
+                    <div class="container" style="max-width: 100%;">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="landing-heading">
@@ -23,11 +23,13 @@
                                     <div class="row">
                                         <div class="col">
                                             <div class="card">
-                                                <img src="images/category1.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5>Groceries</h5>
-                                                    <p>Same Day Delivery</p>
-                                                </div>
+                                                <a href="categories.php">
+                                                    <img src="images/category1.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5>Groceries</h5>
+                                                        <p>Same Day Delivery</p>
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col">
@@ -43,7 +45,7 @@
                                             <div class="card">
                                                 <img src="images/category3.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Just By Quicklly</h5>
+                                                    <h5 class="card-title">Ready-To-Eat Meals</h5>
                                                     <p class="card-text">Delivery in 2-3 Days</p>
                                                 </div>
                                             </div>
@@ -61,7 +63,7 @@
                                             <div class="card">
                                                 <img src="images/category5.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Shop Nationwide</h5>
+                                                    <h5 class="card-title">Shipped across the US</h5>
                                                     <p class="card-text">Delivery in 2-3 Days</p>
                                                 </div>
                                             </div>
@@ -69,43 +71,43 @@
                                     </div>
                                     <!-- <div class="row">
                                         <div class="col">
-                                            <div class="card">
+                                            <div class="card new">
                                                 <img src="images/category6.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Shubh Puja</h5>
-                                                    <p class="card-text">Online Puja & Astrology</p>
+                                                    <h5 class="card-title">Online Astrology & Puja</h5>
+                                                    <p class="card-text">Puja & Astrology</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="card">
+                                            <div class="card new">
                                                 <img src="images/category7.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Q Pay</h5>
-                                                    <p class="card-text">Seamless Transactions, Real-Time</p>
+                                                    <h5 class="card-title">Instant Transfers</h5>
+                                                    <p class="card-text">Between the US and India</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="card">
+                                            <div class="card new">
                                                 <img src="images/category8.png" class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Events</h5>
+                                                <div class="card-body india-event">
+                                                    <h5 class="card-title event">Indian Event</h5>
                                                     <p class="card-text">Access to world-famous Indian event</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="card">
+                                            <div class="card new">
                                                 <img src="images/category9.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
-                                                    <h5 class="card-title">Moments</h5>
-                                                    <p class="card-text">Celebrate delicious moments</p>
+                                                    <h5 class="card-title">Gift Indian Delights</h5>
+                                                    <p class="card-text">Make every moment special</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div class="card">
+                                            <div class="card new">
                                                 <img src="images/category10.png" class="card-img-top" alt="...">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Recipe</h5>
@@ -119,22 +121,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="qr-section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 quickly-sec">
-                                <img src="images/Q-pass.png" alt="">
-                                <span class="quickly-pass">Quicklly Pass</span>
-                                <h5>One pass to sort all your needs.</h5>
-                                <p>Unlock amazing deals, special coupons, extra discounts, and a lot more!</p>
-                            </div>
-                            <div class="col-md-6 qr">
-                                <div class="row">
-                                    <div class="col-md-9">
-                                        <span class="scan-text text-end">Scan QR code with your phone to Subscribe Quicklly Pass</span>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="images/qr.png" alt="">
+                <div class="scan">
+                    <div class="container" style="max-width: 100%;">
+                        <div class="qr-section">
+                            <div class="row">
+                                <div class="col-md-6 quickly-sec">
+                                    <img src="images/Q-pass2.svg" alt="">
+                                    <span class="quickly-pass">Quicklly Pass</span>
+                                    <h5>One pass to sort all your needs.</h5>
+                                    <p>Unlock amazing deals, special coupons, extra discounts, and a lot more!</p>
+                                </div>
+                                <div class="col-md-6 qr">
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <span class="scan-text text-end">Scan QR code with your phone to Subscribe Quicklly Pass</span>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="images/qr.png" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +147,7 @@
                 </div>
 
                 <div class="topdeal-section">
-                    <div class="container">
+                    <div class="container" style="max-width: 100%;">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="deal-heading">
@@ -155,25 +159,25 @@
                                             <div class="row">
                                                 <div class="col">
                                                     <img src="images/1.png" class="d-block w-100" alt="...">
-                                                    <p>Rahbhog Special Kala Jamun Box (16 Pcs)</p>
+                                                    <p>Rahbhog Special Kala Jamun Box...</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
                                                 <div class="col">
                                                     <img src="images/2.png" class="d-block w-100" alt="...">
-                                                    <p>Shaheen Special Coconut Jamun Box (15 Pcs)</p>
+                                                    <p>Shaheen Special Coconut Jamun...</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
                                                 <div class="col">
                                                     <img src="images/3.png" class="d-block w-100" alt="...">
-                                                    <p>Shaheen Special Coconut Jamun Box (15 Pcs)</p>
+                                                    <p>Shaheen Special Coconut Jamun...</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
                                                 <div class="col">
                                                     <img src="images/4.png" class="d-block w-100" alt="...">
-                                                    <p>Shaheen Royal Mithai Medley: Laddoo, Burfe…</p>
+                                                    <p>Shaheen Royal Mithai Medley…</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
@@ -201,25 +205,25 @@
                                             <div class="row">
                                                 <div class="col">
                                                     <img src="images/1.png" class="d-block w-100" alt="...">
-                                                    <p>Rahbhog Special Kala Jamun Box (16 Pcs)</p>
+                                                    <p>Rahbhog Special Kala Jamun Box...</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
                                                 <div class="col">
                                                     <img src="images/2.png" class="d-block w-100" alt="...">
-                                                    <p>Shaheen Special Coconut Jamun Box (15 Pcs)</p>
+                                                    <p>Shaheen Special Coconut Jamun...</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
                                                 <div class="col">
                                                     <img src="images/3.png" class="d-block w-100" alt="...">
-                                                    <p>Shaheen Special Coconut Jamun Box (15 Pcs)</p>
+                                                    <p>Shaheen Special Coconut Jamun...</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
                                                 <div class="col">
                                                     <img src="images/4.png" class="d-block w-100" alt="...">
-                                                    <p>Shaheen Royal Mithai Medley: Laddoo, Burfe…</p>
+                                                    <p>Shaheen Royal Mithai Medley…</p>
                                                     <span class="price">$34.99</span>
                                                     <span class="detail"><a href="#">Details</a></span>
                                                 </div>
@@ -259,7 +263,7 @@
                 </div>
 
                 <div class="coffee-section">
-                    <div class="container">
+                    <div class="container" style="max-width: 100%;">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="coffee-heading">
@@ -374,7 +378,7 @@
                 </div>
 
                 <div class="add-section">
-                    <div class="container">
+                    <div class="container" style="max-width: 100%;">
                         <div class="row">
                             <div class="col-md-4 red">
                                 <div class="red-bg row">
@@ -398,7 +402,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 add-sec">
                                 <div class="add">
                                     <span>Ads</span>
                                 </div>
@@ -408,12 +412,12 @@
                 </div>
 
                 <div class="placement-section">
-                    <div class="container">
+                    <div class="container" style="max-width: 100%;">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="unique">
                                     <h2>Unique products from india</h2>
-                                    <img src="images/unique.png" alt="">
+                                    <img class="main-img" src="images/unique.png" alt="">
                                     <div class="rate-sec">
                                         <span class="name">Ecraft India</span>
                                         <span class="rating"><img src="images/star_icon.png" alt="">4.5</span>
@@ -424,7 +428,7 @@
                             <div class="col-md-4">
                                 <div class="gift">
                                     <h2>Handcrafted Turkish Sweets</h2>
-                                    <img src="images/gift.png" alt="">
+                                    <img class="main-img" src="images/gift.png" alt="">
                                     <div class="rate-sec">
                                         <span class="name">Ecraft India</span>
                                         <span class="rating"><img src="images/star_icon.png" alt="">4.5</span>
@@ -433,8 +437,14 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="place-add">
-                                    <span>Ads Placement</span>
+                                <div class="gift-last">
+                                    <h2>Handcrafted Turkish Sweets</h2>
+                                    <img class="main-img" src="images/gift.png" alt="">
+                                    <div class="rate-sec">
+                                        <span class="name">Ecraft India</span>
+                                        <span class="rating"><img src="images/star_icon.png" alt="">4.5</span>
+                                    </div>
+                                    <p><a href="#">View Store</a></p>
                                 </div>
                             </div>
                         </div>
@@ -442,7 +452,7 @@
                 </div>
 
                 <div class="rating-section">
-                    <div class="container">
+                    <div class="container" style="max-width: 100%;">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="rating-heading">

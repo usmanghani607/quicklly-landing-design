@@ -1,0 +1,126 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .category-section .category .card p { margin: 0; }
+    .qr-section .qr .col-md-9 span { width: 100%; float: none; }
+    .topdeal-section #topDealControls p { height: auto; }
+    .coffee-section #coffeeControls p { height: auto; }
+    .add-section .col-md-4.red { width: 100%; }
+    .add-section .col-md-4.orange { width: 100%; }
+    .add-section .orange-bg img { height: auto; }
+    .add-section .red-bg img { height: auto; }
+    .add-section .orange-bg { padding: 12px 12px 12px 0; margin-bottom: 10px; }
+    .add-section .red-bg { margin-bottom: 10px; }
+    .add-section .red-bg .col-md-8 { padding-top: 10px; padding-left: 15px; }
+    .add-section .orange-bg .col-md-8 { padding-top: 10px; padding-left: 15px; }
+    .placement-section .unique { margin-bottom: 10px; }
+    .placement-section .gift { margin-bottom: 10px; }
+    .rating-section .rating-card .card { margin-bottom: 10px; }
+    .footer-bg .footer_widgth { padding-left: 25px; padding-right: 25px; }
+
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 740px) { 
+
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 320px) and (orientation: landscape) {
+
+
+}
+
+/*110% Zoom*/
+@media (min-width: 1200px) {
+    /* .topheader .cart { padding: 4px; } */
+
+}
+
+/*125% Zoom*/
+@media (max-width: 1200px) {
+    .category .col { flex: 0 0 25%; max-width: 25%; }
+    .category-section .category .card p { margin: 0; }
+    .qr-section .qr .col-md-9 span { float: none; top: 45px; position: relative; }
+    .topdeal-section #topDealControls p { padding-top: 0; height: auto; }
+    .coffee-section #coffeeControls p { padding-top: 0; height: auto;}
+    .add-section .col-md-4.orange { width: 31%; }
+    .add-section .orange-bg img { width: 100%; }
+    .add-section .orange-bg span { font-size: 12px; }
+    .add-section .orange-bg { padding: 12px 0px 12px 0; width: 100%; }
+    .add-section .red-bg span { font-size: 12px; }
+    .placement-section .unique h2 { font-size: 16px; }
+    .placement-section .gift h2 { font-size: 16px; }
+    .placement-section .gift-last h2 { font-size: 16px; }
+    footer.footer-bg .container { max-width: 850px; margin: 0 auto; }
+    .topheader .cart { width: 100%; }
+
+}
+
+/*150% Zoom*/
+@media (max-width: 992px) {
+    .category .col { flex: 0 0 33.33%; max-width: 33.33%; }
+    .topheader .logo-sec img { width: 80px; padding: 0; }
+    .topheader button.navbar-toggler { padding-left: 0; padding-right: 10px; }
+    .topheader .col .zip-code { padding-left: 10px; }
+    .topheader .zip-code span.location img { height: 20px; padding-right: 5px; padding-bottom: 5px; margin-top: 0px; }
+    .topheader .zip-code h5 { font-size: 10px; }
+    .topheader .zip-code span { font-size: 10px; }
+    .topheader .return h5 { font-size: 13px; }
+    .topheader span.number { font-size: 11px; }
+    .topheader span.cart-text { font-size: 12px; }
+    .topheader .cart i { font-size: 11px; }
+    .topheader .cart { padding: 5px; }
+}
+
+@media (max-width: 768px) {
+    .category .col { flex: 0 0 50%; max-width: 50%; }
+   
+
+}
+
+
+
+
+/* @media (min-width: 1400px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl, 
+    .container-xxl { max-width: 1380px; }
+    .add-section .col-md-4.orange { margin-left: 17px; }
+
+}
+@media (min-width: 1600px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl, 
+    .container-xxl { max-width: 1550px; }
+    .add-section .col-md-4.add-sec { margin-left: 5px; }
+    .add-section .col-md-4.orange { margin-left: 21px; }
+}
+
+@media (min-width: 1800px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl, 
+    .container-xxl { max-width: 1650px; }
+
+}
+
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 94%;
+    }
+    .qr-section .col-md-6.quickly-sec { padding-bottom: 18px; }
+} */
+
